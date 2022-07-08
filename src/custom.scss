@@ -1,0 +1,14 @@
+// 2. Include any default variable overrides here
+$primary: #91cb34;
+$secondary: #F86E16;
+$dark: #065226;
+$light: #F9F9F9;
+$sun: #FFED4C;
+$wind: #C3F0FF;
+
+html {
+    background-color: $primary;
+}
+
+// Option A: Include all of Bootstrap
+@import "bootstrap/scss/bootstrap";
