@@ -50,6 +50,12 @@ module.exports = {
             // compiles Sass to CSS
             loader: 'sass-loader'
           }]
+        },
+        {
+          test: /\.jpg$/,
+          use: {
+            loader: 'file-loader',
+          }
         }
     ]
   },

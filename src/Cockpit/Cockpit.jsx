@@ -1,4 +1,5 @@
 import React from "react";
+import Clock from "./clock.jpg"
 
 export default class Cockpit extends React.Component {
     render() {
@@ -13,7 +14,7 @@ export default class Cockpit extends React.Component {
                         <div className="bg-white text-secondary px-5 py-3">
                             <div className="d-flex align-center">
                                 <div className="align-self-center ps-3 pe-5">
-                                    CLOCK
+                                    <img src={Clock} width={100}></img>
                                 </div>
                                 <div className="align-self-center text-start lh-sm">
                                     <span className="fs-3">IN 3 HOURS!</span> <br/>
